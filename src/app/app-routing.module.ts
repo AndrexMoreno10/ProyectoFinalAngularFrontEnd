@@ -8,6 +8,7 @@ import { HogarComponent } from './hogar/hogar.component';
 import { DeporteComponent } from './deporte/deporte.component';
 import { ElectrodomesticosComponent } from './electrodomesticos/electrodomesticos.component';
 import { BellezaCuidadoPersonalComponent } from './belleza-cuidado-personal/belleza-cuidado-personal.component';
+import { CarritoDeComprasComponent } from './carrito-de-compras/carrito-de-compras.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
 {path:'deporte', component:DeporteComponent},
 {path:'electrodomesticos', component:ElectrodomesticosComponent},
 {path:'belleza y cuidado personal', component:BellezaCuidadoPersonalComponent},
-{path:'Login', component:LoginComponent}
+{path:'Login', component:LoginComponent},
+{path:'carritoDeCompras', component:CarritoDeComprasComponent}
 
 ];
 

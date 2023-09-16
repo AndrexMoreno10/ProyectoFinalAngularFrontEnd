@@ -14,6 +14,7 @@ import { DeporteComponent } from './deporte/deporte.component';
 import { BellezaCuidadoPersonalComponent } from './belleza-cuidado-personal/belleza-cuidado-personal.component';
 import { ElectrodomesticosComponent } from './electrodomesticos/electrodomesticos.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
+import { CarritoDeComprasComponent } from './carrito-de-compras/carrito-de-compras.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { TecnologiaComponent } from './tecnologia/tecnologia.component';
     BellezaCuidadoPersonalComponent,
     ElectrodomesticosComponent,
     TecnologiaComponent,
+    CarritoDeComprasComponent,
 
   ],
   imports: [
