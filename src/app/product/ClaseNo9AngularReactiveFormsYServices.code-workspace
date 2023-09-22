@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../../../ClaseNo9AngularReactiveFormsYServices"
+		},
+		{
+			"path": "../../../../../APPS EMPRESARIALES/EjemploBackendAngular"
+		},
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../formularios_tdf"
+		},
+		{
+			"path": "../../../../../../../../login"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ProyectoFinalAngularFrontEnd",
+		"liveServer.settings.port": 5502
+	}
+}
