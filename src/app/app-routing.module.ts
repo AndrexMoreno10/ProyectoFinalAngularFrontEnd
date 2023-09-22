@@ -11,7 +11,7 @@ import { BellezaCuidadoPersonalComponent } from './belleza-cuidado-personal/bell
 
 
 const routes: Routes = [
-{path:'inicio', component: MainComponent},
+{path:'main', component: MainComponent},
 {path:'categorias', component:CategoriasComponent},
 {path:'tecnologia', component:TecnologiaComponent},
 {path:'hogar', component:HogarComponent},

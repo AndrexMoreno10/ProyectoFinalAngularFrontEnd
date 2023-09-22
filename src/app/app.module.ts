@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,9 @@ import { DeporteComponent } from './deporte/deporte.component';
 import { BellezaCuidadoPersonalComponent } from './belleza-cuidado-personal/belleza-cuidado-personal.component';
 import { ElectrodomesticosComponent } from './electrodomesticos/electrodomesticos.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
+import { ProductComponent } from './product/product.component';
+import { SupplierComponent } from './supplier/supplier.component';
+import { CategoryComponent } from './category/category.component';
 
 
 @NgModule({
@@ -30,11 +34,16 @@ import { TecnologiaComponent } from './tecnologia/tecnologia.component';
     BellezaCuidadoPersonalComponent,
     ElectrodomesticosComponent,
     TecnologiaComponent,
+    ProductComponent,
+    SupplierComponent,
+    CategoryComponent,
+    
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
