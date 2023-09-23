@@ -8,12 +8,11 @@ import { DeporteComponent } from './deporte/deporte.component';
 import { ElectrodomesticosComponent } from './electrodomesticos/electrodomesticos.component';
 import { BellezaCuidadoPersonalComponent } from './belleza-cuidado-personal/belleza-cuidado-personal.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
-import { CategoryModule } from './category/category.module';
+
 
 
 const routes: Routes = [
-{path:'main', component: MainComponent},
-{path:'category', component:CategoryModule},
+{path:'Main', component: MainComponent},
 {path:'tecnologia', component:TecnologiaComponent},
 {path:'hogar', component:HogarComponent},
 {path:'deporte', component:DeporteComponent},

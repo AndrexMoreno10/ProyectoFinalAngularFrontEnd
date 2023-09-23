@@ -16,10 +16,8 @@ export class HeaderComponent {
   }
 
   showLoginDesaper(){
-
       this.resultStatus = false;
       this.resultStatusChange.emit(this.resultStatus)
-    
     }
   
 

@@ -8,4 +8,11 @@ import { Product } from './product';
 })
 export class ProductComponent {
 
+  product: Product = new Product();
+
+  constructor(product: Product){
+  this.product = product
+  }
+
+
 }
