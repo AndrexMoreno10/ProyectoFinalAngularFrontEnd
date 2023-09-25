@@ -1,0 +1,6 @@
+<div class="input-group rounded" style="margin-left: 90px;">
+    <input [ngModel]= "capturarSearch" type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+    <span class="input-group-text border-0" id="search-addon">
+      <button type="submit" (click)="onSearch(capturarSearch)" class="fas fa-search"></button>
+    </span>
+  </div>
