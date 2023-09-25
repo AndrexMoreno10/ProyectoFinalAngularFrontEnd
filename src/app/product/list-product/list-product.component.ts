@@ -18,4 +18,6 @@ export class ListProductComponent implements OnInit {
       console.log(this.products)
     });
   }
+
+  
 }

@@ -18,6 +18,8 @@ import { SupplierModule } from './supplier/supplier.module';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { CategoryModule } from './category/category.module'; 
 import { ReactiveFormsModule,FormsModule } from '@angular/forms';
+import { ViewProductComponent } from './view-product/view-product.component';
+import { SearchModule } from './search/search.module';
 
 
 
@@ -35,6 +37,8 @@ import { ReactiveFormsModule,FormsModule } from '@angular/forms';
     ElectrodomesticosComponent,
     TecnologiaComponent,
     ShoppingCartComponent,
+    ViewProductComponent,
+    
 
 
   ],
@@ -46,7 +50,8 @@ import { ReactiveFormsModule,FormsModule } from '@angular/forms';
     FormsModule,
     ProductModule,
     SupplierModule,
-    CategoryModule
+    CategoryModule,
+    SearchModule
     
 
   ],

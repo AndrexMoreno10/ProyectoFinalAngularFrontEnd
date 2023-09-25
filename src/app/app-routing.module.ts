@@ -8,6 +8,8 @@ import { DeporteComponent } from './deporte/deporte.component';
 import { ElectrodomesticosComponent } from './electrodomesticos/electrodomesticos.component';
 import { BellezaCuidadoPersonalComponent } from './belleza-cuidado-personal/belleza-cuidado-personal.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
+import { ViewProductComponent } from './view-product/view-product.component';
+import { ListProductComponent } from './product/list-product/list-product.component';
 
 
 
@@ -19,7 +21,9 @@ const routes: Routes = [
 {path:'electrodomesticos', component:ElectrodomesticosComponent},
 {path:'belleza y cuidado personal', component:BellezaCuidadoPersonalComponent},
 {path:'Login', component:LoginComponent},
-{path:'ShoppingCart', component:ShoppingCartComponent}
+{path:'ShoppingCart', component:ShoppingCartComponent}, 
+{path: 'product/:id', component: ViewProductComponent },
+{ path: 'category/:categoryId', component: ListProductComponent },
 
 ];
 
