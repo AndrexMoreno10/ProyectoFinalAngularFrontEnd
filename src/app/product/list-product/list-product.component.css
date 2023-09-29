@@ -3,3 +3,11 @@
   
     
 }
+
+.containerProductos{
+   display: flex;
+   flex-wrap: wrap;
+   width: 80vw;
+   /* margin-right: 300px; */
+  
+}

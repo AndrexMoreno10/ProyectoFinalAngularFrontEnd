@@ -1,5 +1,5 @@
-<div class="row">
-  <div class="col-4" *ngFor="let product of products">
+<div class="containerProductos">
+  <div *ngFor="let product of products">
     <div class="container">
       <section class="mx-auto my-2" style="max-width: 23rem;" style="padding-left: 50px;">
 
@@ -37,8 +37,8 @@
               {{product.description}}
             </p>
             <div class="d-flex">
-              <a href="#" class="btn btn-danger" style="width: 60%;" style="height: 30%;">Comprar</a>
-              <a (click)="addToCart(product)" href="#" class="btn btn-primary" style="width: 40%;" style="height: 30%;"
+              <a class="btn btn-danger" style="width: 60%;" style="height: 30%;">Comprar</a>
+              <a (click)="addToCart(product)" class="btn btn-primary" style="width: 40%;" style="height: 30%;"
                 style="margin-left: 20px;">Añadir al Carrito</a>
             </div>
           </div>

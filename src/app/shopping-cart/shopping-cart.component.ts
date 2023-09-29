@@ -26,7 +26,7 @@ export class ShoppingCartComponent {
   }
 
   incrementQuantity(item: any): number {
-    item.quantity = 1;
+    // item.quantity = 1;
     return item.quantity++;
     console.log(item.quantity + "mas")
      // Incrementar la cantidad del producto
