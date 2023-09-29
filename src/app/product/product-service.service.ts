@@ -10,6 +10,7 @@ import { environment } from '../environments/environment.development';
 export class ProductServiceService {
 
   urlApi = environment.API_URL_PRODUCTS
+  urlApiCategory = environment.API_URL_CATEGORY
 
   constructor(private http:HttpClient) { 
 
@@ -21,12 +22,17 @@ export class ProductServiceService {
   }
 
   getProduct(productId: number): Observable<Product> {
-    return this.http.get<Product>(this.urlApi);
+    return this.http.get<Product>(`${this.urlApi}/${productId}`);
   }
 
    getAllProducts():Observable<Product[]>{
      return this.http.get<Product[]>(this.urlApi)
    }
+
+   
+  findByCategory(categoryId : number): Observable<Product[]> {
+    return this.http.get<Product[]>(`${this.urlApi}/category/${categoryId}`);
+  }
 
 
 

@@ -4,12 +4,15 @@ import { CommonModule } from '@angular/common';
 import { ProductRoutingModule } from './product-routing.module';
 import { ProductComponent } from './product.component';
 import { ListProductComponent} from './list-product/list-product.component';
+import { ViewProductComponent } from './view-product/view-product.component';
+
 
 
 @NgModule({
   declarations: [
     ProductComponent,
-    ListProductComponent
+    ListProductComponent,
+    ViewProductComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +20,9 @@ import { ListProductComponent} from './list-product/list-product.component';
   ],
   exports:[
     ProductComponent,
-    ListProductComponent
+    ListProductComponent,
+    ViewProductComponent
+
 
   ]
 })

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from './header/header.component';
+import { ProductServiceService } from './product/product-service.service';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,6 @@ export class AppComponent {
 
   resultStatus = true;
 
-  
 }
 
 

@@ -3,20 +3,9 @@
     <li class="nav-item">
       <a class="navbar-brand" style="margin-left: 7px; font-size: 25px; margin-bottom: 10px;">Categorias</a>
     </li>
-    <li class="nav-item">
-      <a class="text-white" routerLink="/tecnologia" routerLinkActive="active" ariaCurrentWhenActive="page">Tecnologia</a>
+    <li class="nav-item" *ngFor="let category of categories">
+      <a class="text-white" [routerLink]="['products/category/', category.id]"routerLinkActive="active" ariaCurrentWhenActive="page">{{category.name}} </a>
     </li>
-    <li class="nav-item">
-      <a class="text-white" routerLink="/hogar" routerLinkActive="active" ariaCurrentWhenActive="page">Hogar</a>
-    </li>
-    <li class="nav-item">
-      <a class="text-white" routerLink="/deporte" routerLinkActive="active" ariaCurrentWhenActive="page">Deporte</a>
-    </li>
-    <li class="nav-item">
-      <a class="text-white" routerLink="/electrodomesticos" routerLinkActive="active" ariaCurrentWhenActive="page">Electrodomesticos</a>
-    </li>
-    <li class="nav-item">
-      <a class="text-white" routerLink="/belleza y cuidado personal" routerLinkActive="active" ariaCurrentWhenActive="page">Belleza y Cuidado personal</a>
-    </li>
+    
   </ul>
 </div>
